@@ -1,7 +1,6 @@
 *.env
-data/raw/*
-data/processed/*
+data/*
 config/*
 
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+!data/.gitkeep
+*.pyc
