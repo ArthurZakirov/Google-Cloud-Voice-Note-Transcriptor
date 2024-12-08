@@ -1,5 +1,13 @@
-# Audio Transcription Pipeline
+# Google-Cloud-Voice-Note-Transcriptor
 ![Data-Flowchart](images/Data-Flow-Diagram-Transcription.jpg)
+
+## Motivation
+Recording your life lessons in voice notes is a convenient way to capture and store your best ideas, allowing your future self to revisit and benefit from them. However, finding the right note later on can be a challenge, especially when you only have the title to go on.
+
+So, how can you make these valuable insights easier to access down the line?
+
+The solution is to convert them into transcripts. This not only lets you quickly skim through the content without re-listening to the entire recording, but also makes your notes searchable by keywords, not just the title. This way, you can easily find and revisit your ideas whenever you need them.
+
 ## Overview
 
 This project automates the process of transcribing audio files stored in Google Drive, utilizing the OpenAI API for transcription. It downloads audio files from a specified directory, transcribes them into text, and then uploads the transcriptions back to Google Drive. The system handles audio files in chunks to improve the efficiency and accuracy of transcription.
